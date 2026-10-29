@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# SQLite databases
+**/db.sqlite3
+
+# Django generated files
+media/
+staticfiles/
+
+# React
+node_modules/
+dist/
+dist-ssr/
+
+# Logs
+*.log
+
+# Editor files
+.vscode/
+.idea/
+.DS_Store# Unused Primora practice images
+/Frontend/React/public/allcakes.jpeg
+/Frontend/React/public/cake1.jpeg
+/Frontend/React/public/cakes.jpeg
+/Frontend/React/public/cookies.jpeg
+/Frontend/React/public/cookies2.jpeg
+/Frontend/React/public/cup.jpeg
+/Frontend/React/public/cupcake 2.jpeg
+/Frontend/React/public/cupcake.jpeg
+/Frontend/React/public/eddy cakes.jpeg
+/Frontend/React/public/pastry.jpeg
+/Frontend/React/public/pastry2.jpeg
+/Frontend/React/public/shop img.jpeg
+/Frontend/React/src/assets/primora logo.png
