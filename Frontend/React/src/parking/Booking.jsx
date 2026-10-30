@@ -68,15 +68,15 @@ export default function Booking() {
 
     setSubmitting(true);
 
-    try {
-      const csrfResponse = await fetch(
-        "https://parking-pulse-full-project-1.onrender.com/api/csrf/"
-        { credentials: "include" }
-      );
+   try {
+  const csrfResponse = await fetch(
+    "https://parking-pulse-full-project-1.onrender.com/api/csrf/",
+    { credentials: "include" }
+  );
 
-      if (!csrfResponse.ok) {
-        throw new Error("Could not initialize security token. Please try again.");
-      }
+  if (!csrfResponse.ok) {
+    throw new Error("Could not initialize security token. Please try again.");
+  }
 
       const csrfCookie = document.cookie
         .split("; ")
@@ -99,7 +99,7 @@ export default function Booking() {
       ).toISOString();
 
       const response = await fetch(
-        "http://localhost:8000/api/booking/create/",
+       "https://parking-pulse-full-project-1.onrender.com/api/booking/create/",
         {
           method: "POST",
           credentials: "include",
@@ -147,7 +147,7 @@ export default function Booking() {
 
     try {
       const csrfResponse = await fetch(
-        "http://localhost:8000/api/csrf/",
+        "https://parking-pulse-full-project-1.onrender.com/api/csrf/",
         { credentials: "include" }
       );
 
@@ -168,7 +168,7 @@ export default function Booking() {
       }
 
       const response = await fetch(
-        `http://localhost:8000/api/booking/${bookingDetails.id}/cancel/`,
+        `https://parking-pulse-full-project-1.onrender.com/api/booking/${bookingDetails.id}/cancel/`,
         {
           method: "POST",
           credentials: "include",
