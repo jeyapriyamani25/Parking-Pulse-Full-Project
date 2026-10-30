@@ -4,7 +4,7 @@ import logo from "../assets/parking-pulse-logo.png";
 import { Link } from "react-router-dom";
 
 
-const API = "http://localhost:8000/api";
+const API = "https://parking-pulse-full-project-1.onrender.com/api";
 
 export default function Login() {
   const navigate = useNavigate();

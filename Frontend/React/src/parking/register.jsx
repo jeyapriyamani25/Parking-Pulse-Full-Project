@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/parking-pulse-logo.png";
 
-const API = "http://localhost:8000/api";
+const API = "https://parking-pulse-full-project-1.onrender.com/api";
 
 export default function Register() {
   const [username, setUsername] = useState("");

@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "./AdminDashboard.css";
 
-const API = "http://localhost:8000/api";
+const API = "https://parking-pulse-full-project-1.onrender.com/api";
 
 export default function AdminDashboard() {
   const [owners, setOwners] = useState([]);

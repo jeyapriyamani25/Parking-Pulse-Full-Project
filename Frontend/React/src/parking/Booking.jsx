@@ -70,7 +70,7 @@ export default function Booking() {
 
     try {
       const csrfResponse = await fetch(
-        "http://localhost:8000/api/csrf/",
+        "https://parking-pulse-full-project-1.onrender.com/api/csrf/"
         { credentials: "include" }
       );
 

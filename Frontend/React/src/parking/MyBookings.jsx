@@ -5,7 +5,7 @@ import carImage from "../assets/car.png";
 import bikeImage from "../assets/bike.png";
 
 
-const API = "http://localhost:8000/api";
+const API = "https://parking-pulse-full-project-1.onrender.com/api";
 
 export default function MyBookings() {
   const [bookings, setBookings] = useState([]);
