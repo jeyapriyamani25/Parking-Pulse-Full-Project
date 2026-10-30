@@ -140,12 +140,14 @@ MAILERS = {
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://parking-pulse-full-project.vercel.app",
 ]
+
 
 CORS_ALLOW_CREDENTIALS = True
 
-CSRF_TRUSTED_ORIGINS =[
+CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",
+    "https://parking-pulse-full-project.vercel.app",
 ]
-
 CSRF_COOKIE_HTTPONLY = False

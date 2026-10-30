@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import logo from "../assets/parking-pulse-logo.png";
 
-const API = "http://localhost:8000/api";
+const API = "https://parking-pulse-full-project-1.onrender.com/api";
 
 export default function ParkingSlots() {
   const navigate = useNavigate();
